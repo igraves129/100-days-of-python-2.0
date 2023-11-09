@@ -1,0 +1,18 @@
+Day 2 of 100 days of python. 
+First day was learning the print function that anything with the syntax print("_") will print to the console
+today on day 2 we learned how to link the print sytax with the input syntax which will print to the console a message that the use can reply to and how ot store values within variables. 
+it is weird that there is no prefix such as var, let, or const like in Javascript. but you can type your variable with anything you want using camilcase like in JS or using underscores as spaces
+now how to link the two is you can set a input function as the value for a variable and then print the variable. But make sure to not put quotation marks around the value otherwise it will just print the string
+See Code Below:
+yourName = input ("What is your name?")
+yourFood = input ("What is your favorite food?")
+yourMusic = input ("What is your Favorite Music?")
+yourLocation = input ("Where do you live?")
+print("you are")
+print(yourName)
+print(" And you Love to eat")
+print(yourFood)
+print("and you are definitly getting your groove on to")
+print(yourMusic)
+print("While living in")
+print(yourLocation)
